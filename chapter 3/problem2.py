@@ -4,6 +4,7 @@ You are selected!
 Date: <|DATE|>'''
 name = input("Enter your name: ")
 date = input("Enter date: ")
-letter = letter.replace("<|NAME|>", name)
-letter = letter.replace("<|DATE|>", date)
-print(letter)
+letter1 = letter.replace("<|NAME|>", name)
+letter2 = letter1.replace("<|DATE|>", date)
+print(letter2)
+#or can chain the replace function as
