@@ -5,4 +5,4 @@ elif(a<0):
     print("Negative number")
 else:
     print("Zero")
-    
+#this is if else ladder
