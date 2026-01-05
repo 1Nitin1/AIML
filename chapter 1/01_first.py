@@ -1,5 +1,5 @@
-import pyjokes
-joke = pyjokes.get_joke()
+import pyjokes as pj
+joke = pj.get_joke()
 
 #this will print a random joke
 """
