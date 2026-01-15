@@ -1,0 +1,21 @@
+1- select specific col
+2- filter rows
+3- combination
+
+1-sq brackets
+2-boolean conditions
+
+selecting columns
+1- a series
+2- dataframe with multi cols
+
+col=df['col name']
+subset=df[['col1','col2',...]]
+
+filter rows
+boolean indexing
+
+#based on single condition
+fitrd = df[df['salary']>5000]
+#mutli cond.
+filtrd=df[(df['salary']>5000)&(df[df['salary']<80000])]
