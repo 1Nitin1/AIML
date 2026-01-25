@@ -6,5 +6,5 @@ data = {
     "performance":[85,90,92,97,87,85,89,99]
 }
 df = pd.DataFrame(data)
-grpd=df.groupby('age')['salary'].sum()
+grpd=df.groupby('age',as_index=False)['salary'].sum()
 print(grpd)
